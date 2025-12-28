@@ -70,5 +70,5 @@ export default defineConfig([
     },
   },
 ])
-adding this changes for new commit
+adding this changes for new commit with new change
 ```
