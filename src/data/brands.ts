@@ -1,0 +1,88 @@
+import type { Brand } from '../types';
+
+export const brands: Brand[] = [
+    {
+        id: 1,
+        name: 'Milton',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: "India's trusted household brand",
+        descriptionHi: 'भारत का विश्वसनीय घरेलू ब्रांड',
+    },
+    {
+        id: 2,
+        name: 'Cello',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Quality kitchenware since 1967',
+        descriptionHi: '1967 से गुणवत्ता किचनवेयर',
+    },
+    {
+        id: 3,
+        name: 'Prestige',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Premium pressure cookers & cookware',
+        descriptionHi: 'प्रीमियम प्रेशर कुकर और बर्तन',
+    },
+    {
+        id: 4,
+        name: 'Hawkins',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'The pressure cooker people',
+        descriptionHi: 'प्रेशर कुकर के विशेषज्ञ',
+    },
+    {
+        id: 5,
+        name: 'Tupperware',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Premium storage solutions',
+        descriptionHi: 'प्रीमियम स्टोरेज समाधान',
+    },
+    {
+        id: 6,
+        name: 'Borosil',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Glass & ceramic experts',
+        descriptionHi: 'कांच और सिरेमिक विशेषज्ञ',
+    },
+    {
+        id: 7,
+        name: 'Scotch-Brite',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Cleaning made easy',
+        descriptionHi: 'सफाई आसान बनाएं',
+    },
+    {
+        id: 8,
+        name: 'Gala',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Home cleaning solutions',
+        descriptionHi: 'घर की सफाई के समाधान',
+    },
+    {
+        id: 9,
+        name: 'Pigeon',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Cookware & kitchen appliances',
+        descriptionHi: 'बर्तन और किचन उपकरण',
+    },
+    {
+        id: 10,
+        name: 'Nirlon',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Non-stick cookware specialists',
+        descriptionHi: 'नॉन-स्टिक बर्तन विशेषज्ञ',
+    },
+    {
+        id: 11,
+        name: 'Wonderchef',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Premium kitchen solutions',
+        descriptionHi: 'प्रीमियम किचन समाधान',
+    },
+    {
+        id: 12,
+        name: 'Spotzero',
+        logo: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&h=100&fit=crop',
+        descriptionEn: 'Innovative cleaning products',
+        descriptionHi: 'अभिनव सफाई उत्पाद',
+    },
+];

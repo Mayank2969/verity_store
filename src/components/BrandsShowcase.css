@@ -1,0 +1,138 @@
+.brands-section {
+    padding: 5rem 1.5rem;
+    background: linear-gradient(180deg, var(--color-cream) 0%, white 100%);
+}
+
+.brands-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Section Header */
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Brands Grid */
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.brand-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.brand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.brand-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.brand-initial {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.brand-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.brand-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+}
+
+.brand-description {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    line-height: 1.4;
+}
+
+/* Marquee */
+.brands-marquee {
+    overflow: hidden;
+    padding: 1.5rem 0;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    border-radius: 16px;
+    margin-top: 2rem;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 3rem;
+    animation: scroll 20s linear infinite;
+    width: max-content;
+}
+
+.marquee-item {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .brands-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .brand-card {
+        padding: 1rem;
+    }
+
+    .brand-logo {
+        width: 50px;
+        height: 50px;
+    }
+}
